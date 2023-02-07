@@ -1,0 +1,37 @@
+Report:
+
+MD5 encryption is a widely used cryptographic hash function that is used to encrypt passwords. However, it is considered to be a relatively weak form of encryption and is easily crackable by modern computers. A hacker can use a technique called "rainbow table" attack to quickly crack a password that has been hashed using MD5. In addition, MD5 is also considered vulnerable to collisions, which means that two different inputs could produce the same output.
+
+To make cracking much harder for the hacker in the event of a password database leaking again, the following controls could be implemented:
+
+Use a stronger encryption algorithm: Instead of using MD5, organizations should consider using stronger encryption algorithms such as bcrypt, scrypt, or Argon2. These algorithms are specifically designed to be more resistant to cracking.
+
+Use of Salt: Adding a "salt" to the password before encrypting it can make cracking much harder for the hacker. A salt is a random value that is added to the password before it is hashed. This makes it much harder for the hacker to use precomputed tables to crack the password.
+
+Use of Two-Factor authentication: Two-factor authentication can add an additional layer of security to the login process. Even if the password is cracked, the hacker would still need to have access to the user's second factor (such as a phone or email) to login.
+
+Incident Management: Have a robust incident management plan in place to detect and respond to security incidents, particularly those related to password breaches.
+
+Given the sample passwords provided, it is not possible to infer the organization's password policy. However, in general, a strong password policy would include the following elements:
+
+Long and complex password: Passwords should be at least 12-15 characters long, and include a combination of uppercase and lowercase letters, numbers, and special characters.
+
+Unique passwords: Users should not reuse the same password across multiple accounts.
+
+Regular password updates: Passwords should be updated regularly, such as every 3-6 months.
+
+Two-factor authentication: Two-factor authentication should be implemented where possible.
+
+Password Management: Use of a password manager can help users generate and store complex passwords securely.
+
+To make breaking the passwords harder, the organization should consider implementing the controls mentioned above such as:
+
+Using a stronger encryption algorithm: As mentioned earlier, using a stronger encryption algorithm such as bcrypt, scrypt, or Argon2 would make cracking much harder for the hacker.
+
+Use of Salt: As mentioned earlier, adding a salt to the password before encrypting it can make cracking much harder for the hacker.
+
+Use of Two-Factor Authentication: As mentioned earlier, two-factor authentication can add an additional layer of security to the login process.
+
+Regular password updates: Regularly updating passwords can make it harder for the hacker to use previously cracked passwords to gain access to accounts.
+
+Password Management: Use of a password manager can help users generate and store complex passwords securely.
